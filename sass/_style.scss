@@ -6,7 +6,6 @@
 	}
 	& .a-menu{
 		@include enlace-menu();
-		margin-top: -120px;
 	}
 	& .a-menu__elem{
 		@include enlace-menu-element();
