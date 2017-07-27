@@ -1,0 +1,16 @@
+.navegador{
+	background-color:$nav;
+	height: 100px;
+	& .img-nav{
+		@include imagen-nave();
+	}
+	& .a-menu{
+		@include enlace-menu();
+	}
+	& .a-menu__elem{
+		@include enlace-menu-element();
+	}
+	& .a-menu__elem__enlace{
+		@include decoracion();
+	}
+}

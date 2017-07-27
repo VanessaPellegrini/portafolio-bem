@@ -1,0 +1,26 @@
+@mixin imagen-nave(){
+	display: inline-block;
+	margin-left: 300px;
+    padding: 4px;
+    margin-top: -20px;
+}
+@mixin enlace-menu(){
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+    float: right;
+    margin-right: 130px;	
+}
+@mixin enlace-menu-element{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 80px;
+    color: white;
+    padding-top: 20px;
+}
+@mixin decoracion{
+	text-decoration:none;
+	color: white;
+}
