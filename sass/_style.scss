@@ -6,6 +6,7 @@
 	}
 	& .a-menu{
 		@include enlace-menu();
+		margin-top: -120px;
 	}
 	& .a-menu__elem{
 		@include enlace-menu-element();
@@ -42,12 +43,55 @@ section{
 	}
 	& div.lista{
 		ul{
-			padding: 200px;
+			padding: 120px;
     		margin-left: 150px;
 			li{
 				display: inline-block;
 				margin-left: 50px;
+				&:hover{
+					@include animacion();
+				}
 			}
 		}
+	}
+}
+section.trabajos{
+	background-color:$nav;
+	.caja-texto-dos{
+		color: white;
+		padding: 50px 100px;
+		& p{
+			padding-top:60px;
+			padding-bottom: 50px;
+		}
+		& a{
+			@include boton();
+			&:hover{
+					background-color:#203748;
+			}
+		}
+	}
+	& div.lista-trabajos{
+		& ul{
+			margin-left: 100px;
+    		padding: 10px;
+			& li{
+				display: inline;
+				img{
+					width: 30%;
+					border-radius: 10px;
+					&:hover{
+							@include animacion();
+						}
+				}
+			}
+		}
+	}
+}
+footer{
+	background-color:$background_color;
+	& p{
+		margin-left: 450px;
+		color: #fff;
 	}
 }

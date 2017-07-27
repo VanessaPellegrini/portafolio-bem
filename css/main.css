@@ -13,7 +13,8 @@
     padding: 20px;
     margin-top: 0;
     float: right;
-    margin-right: 130px; }
+    margin-right: 130px;
+    margin-top: -120px; }
   .navegador .a-menu__elem {
     display: inline-block;
     font-size: 20px;
@@ -71,11 +72,48 @@ section {
       section .caja-texto a:hover {
         background-color: #F04949; }
   section div.lista ul {
-    padding: 200px;
+    padding: 120px;
     margin-left: 150px; }
     section div.lista ul li {
       display: inline-block;
       margin-left: 50px; }
+      section div.lista ul li:hover {
+        transform: translateY(-25px); }
+
+section.trabajos {
+  background-color: #F04949; }
+  section.trabajos .caja-texto-dos {
+    color: white;
+    padding: 50px 100px; }
+    section.trabajos .caja-texto-dos p {
+      padding-top: 60px;
+      padding-bottom: 50px; }
+    section.trabajos .caja-texto-dos a {
+      color: #fff;
+      font-size: 20px;
+      background-color: #39D084;
+      padding: 10px 40px;
+      text-decoration: none;
+      border-radius: 38px;
+      margin-left: 160px; }
+      section.trabajos .caja-texto-dos a:hover {
+        background-color: #203748; }
+  section.trabajos div.lista-trabajos ul {
+    margin-left: 100px;
+    padding: 10px; }
+    section.trabajos div.lista-trabajos ul li {
+      display: inline; }
+      section.trabajos div.lista-trabajos ul li img {
+        width: 30%;
+        border-radius: 10px; }
+        section.trabajos div.lista-trabajos ul li img:hover {
+          transform: translateY(-25px); }
+
+footer {
+  background-color: #203748; }
+  footer p {
+    margin-left: 450px;
+    color: #fff; }
 
 * {
   padding: 0;

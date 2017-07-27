@@ -72,3 +72,6 @@
     border-radius: 38px;
     margin-left: 160px;
 }
+@mixin animacion(){
+	transform: translateY(-25px);
+}
