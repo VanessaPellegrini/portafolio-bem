@@ -97,22 +97,25 @@ section.trabajos {
       margin-left: 160px; }
       section.trabajos .caja-texto-dos a:hover {
         background-color: #203748; }
-  section.trabajos div.lista-trabajos ul {
-    margin-left: 100px;
-    padding: 10px; }
-    section.trabajos div.lista-trabajos ul li {
-      display: inline; }
-      section.trabajos div.lista-trabajos ul li img {
-        width: 30%;
-        border-radius: 10px; }
-        section.trabajos div.lista-trabajos ul li img:hover {
-          transform: translateY(-25px); }
+  section.trabajos div.lista-trabajos {
+    padding-bottom: 30px; }
+    section.trabajos div.lista-trabajos ul {
+      margin-left: 100px;
+      padding: 10px; }
+      section.trabajos div.lista-trabajos ul li {
+        display: inline; }
+        section.trabajos div.lista-trabajos ul li img {
+          width: 30%;
+          border-radius: 10px; }
+          section.trabajos div.lista-trabajos ul li img:hover {
+            transform: translateY(-25px); }
 
 footer {
   background-color: #203748; }
   footer p {
     margin-left: 450px;
-    color: #fff; }
+    color: #fff;
+    padding: 20px; }
 
 * {
   padding: 0;
