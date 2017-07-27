@@ -12,5 +12,23 @@
 	}
 	& .a-menu__elem__enlace{
 		@include decoracion();
+		&:hover{
+			@include boton-hover();
+		}
+	}
+}
+section{
+	background-color:$background_color;
+	& .img-foto{
+		@include foto();
+	}
+	& .caja-texto{
+		@include caja-texto();
+		& h2{
+			@include titulo();
+		}
+		& h3{
+			@include subtexto();
+		}
 	}
 }

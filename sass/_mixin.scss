@@ -1,6 +1,6 @@
 @mixin imagen-nave(){
 	display: inline-block;
-	margin-left: 300px;
+	margin-left: 250px;
     padding: 4px;
     margin-top: -20px;
 }
@@ -12,7 +12,7 @@
     float: right;
     margin-right: 130px;	
 }
-@mixin enlace-menu-element{
+@mixin enlace-menu-element(){
     display: inline-block;
     font-size: 20px;
     font-weight: 300;
@@ -20,7 +20,37 @@
     color: white;
     padding-top: 20px;
 }
-@mixin decoracion{
+@mixin decoracion(){
 	text-decoration:none;
 	color: white;
+}
+@mixin boton-hover(){
+	background-color: $background_color;
+    padding: 10px;
+    border-radius: 20px;
+}
+@mixin foto(){
+	margin-left: 195px;
+    margin-top: 80px;
+}
+@mixin caja-texto(){
+    width: 548px;
+    margin: 0;
+    float: right;
+    margin-top: 100px;
+    text-align: left;
+    margin-right: 75px;
+}
+@mixin titulo(){
+	color: $btn_color;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+@mixin subtexto(){
+	font-size: 25px;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    color: #fff;
 }

@@ -4,7 +4,7 @@
   height: 100px; }
   .navegador .img-nav {
     display: inline-block;
-    margin-left: 300px;
+    margin-left: 250px;
     padding: 4px;
     margin-top: -20px; }
   .navegador .a-menu {
@@ -24,6 +24,34 @@
   .navegador .a-menu__elem__enlace {
     text-decoration: none;
     color: white; }
+    .navegador .a-menu__elem__enlace:hover {
+      background-color: #203748;
+      padding: 10px;
+      border-radius: 20px; }
+
+section {
+  background-color: #203748; }
+  section .img-foto {
+    margin-left: 195px;
+    margin-top: 80px; }
+  section .caja-texto {
+    width: 548px;
+    margin: 0;
+    float: right;
+    margin-top: 100px;
+    text-align: left;
+    margin-right: 75px; }
+    section .caja-texto h2 {
+      color: #39D084;
+      font-size: 35px;
+      font-weight: 400;
+      margin-bottom: 0; }
+    section .caja-texto h3 {
+      font-size: 25px;
+      font-weight: 400;
+      margin-top: 2px;
+      margin-bottom: 50px;
+      color: #fff; }
 
 * {
   padding: 0;
