@@ -39,7 +39,7 @@
     float: right;
     margin-top: 100px;
     text-align: left;
-    margin-right: 75px;
+    margin-right: 175px;
 }
 @mixin titulo(){
 	color: $btn_color;
@@ -53,4 +53,22 @@
     margin-top: 2px;
     margin-bottom: 50px;
     color: #fff;
+}
+@mixin texto(){
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #fff;
+    margin-bottom: 80px;
+}
+@mixin boton(){
+	color: #fff;
+    font-size: 20px;
+    background-color: $btn_color;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 38px;
+    margin-left: 160px;
 }

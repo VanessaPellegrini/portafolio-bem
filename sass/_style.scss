@@ -30,5 +30,24 @@ section{
 		& h3{
 			@include subtexto();
 		}
+		& p{
+			@include texto();
+		}
+		& a{
+			@include boton();
+			&:hover{
+				background-color:$nav;
+			}
+		}
+	}
+	& div.lista{
+		ul{
+			padding: 200px;
+    		margin-left: 150px;
+			li{
+				display: inline-block;
+				margin-left: 50px;
+			}
+		}
 	}
 }

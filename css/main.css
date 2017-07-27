@@ -40,7 +40,7 @@ section {
     float: right;
     margin-top: 100px;
     text-align: left;
-    margin-right: 75px; }
+    margin-right: 175px; }
     section .caja-texto h2 {
       color: #39D084;
       font-size: 35px;
@@ -52,6 +52,30 @@ section {
       margin-top: 2px;
       margin-bottom: 50px;
       color: #fff; }
+    section .caja-texto p {
+      display: block;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      color: #fff;
+      margin-bottom: 80px; }
+    section .caja-texto a {
+      color: #fff;
+      font-size: 20px;
+      background-color: #39D084;
+      padding: 10px 40px;
+      text-decoration: none;
+      border-radius: 38px;
+      margin-left: 160px; }
+      section .caja-texto a:hover {
+        background-color: #F04949; }
+  section div.lista ul {
+    padding: 200px;
+    margin-left: 150px; }
+    section div.lista ul li {
+      display: inline-block;
+      margin-left: 50px; }
 
 * {
   padding: 0;
